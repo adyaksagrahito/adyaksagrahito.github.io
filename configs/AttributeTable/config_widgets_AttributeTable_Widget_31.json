@@ -1,0 +1,711 @@
+{
+  "layerInfos": [
+    {
+      "name": "Objek Wisata",
+      "id": "c23ec14a1d2d42cbbd632d422e55abf1",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "FID",
+            "alias": "FID"
+          },
+          {
+            "show": true,
+            "name": "Name",
+            "alias": "Name"
+          },
+          {
+            "show": true,
+            "name": "Lokasi",
+            "alias": "Lokasi"
+          },
+          {
+            "show": true,
+            "name": "Sejarah_Si",
+            "alias": "Sejarah_Si"
+          },
+          {
+            "show": true,
+            "name": "Daya_Tarik",
+            "alias": "Daya_Tarik"
+          },
+          {
+            "show": true,
+            "name": "Kelas_Obye",
+            "alias": "Kelas_Obye"
+          },
+          {
+            "show": true,
+            "name": "Hari_Buka",
+            "alias": "Hari_Buka"
+          },
+          {
+            "show": true,
+            "name": "Jam_Buka__",
+            "alias": "Jam_Buka__"
+          },
+          {
+            "show": true,
+            "name": "Wisatawan",
+            "alias": "Wisatawan"
+          },
+          {
+            "show": true,
+            "name": "Biaya__Idr",
+            "alias": "Biaya__Idr"
+          },
+          {
+            "show": true,
+            "name": "Link",
+            "alias": "Link"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "Name",
+      "isDescending": false
+    },
+    {
+      "name": "Event Attraction",
+      "id": "828b0a55f35d45dcbc86b3be0ebcba5b",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/1",
+        "fields": [
+          {
+            "show": false,
+            "name": "FID",
+            "alias": "FID"
+          },
+          {
+            "show": true,
+            "name": "Event_Attr",
+            "alias": "Event_Attr"
+          },
+          {
+            "show": true,
+            "name": "Lokasi",
+            "alias": "Lokasi"
+          },
+          {
+            "show": true,
+            "name": "Tujuan_Eve",
+            "alias": "Tujuan_Eve"
+          },
+          {
+            "show": true,
+            "name": "Informasi_",
+            "alias": "Informasi_"
+          },
+          {
+            "show": true,
+            "name": "Pelaksanaa",
+            "alias": "Pelaksanaa"
+          },
+          {
+            "show": true,
+            "name": "Biaya",
+            "alias": "Biaya"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "Event_Attr",
+      "isDescending": false
+    },
+    {
+      "name": "Toko Oleh-Oleh",
+      "id": "e5c22b82c49f4283a8a5735ad3862e97",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/2",
+        "fields": [
+          {
+            "show": false,
+            "name": "FID",
+            "alias": "FID"
+          },
+          {
+            "show": true,
+            "name": "Nama_Toko",
+            "alias": "Nama_Toko"
+          },
+          {
+            "show": true,
+            "name": "Menu",
+            "alias": "Menu"
+          },
+          {
+            "show": true,
+            "name": "Harga",
+            "alias": "Harga"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "Nama_Toko",
+      "isDescending": false
+    },
+    {
+      "name": "Hotel",
+      "id": "b3197ac799104bb39f39823301d917e6",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/3",
+        "fields": [
+          {
+            "show": false,
+            "name": "FID",
+            "alias": "FID"
+          },
+          {
+            "show": true,
+            "name": "Name_1",
+            "alias": "Name_1"
+          },
+          {
+            "show": true,
+            "name": "Lokasi",
+            "alias": "Lokasi"
+          },
+          {
+            "show": true,
+            "name": "Star",
+            "alias": "Bintang"
+          },
+          {
+            "show": true,
+            "name": "Biaya",
+            "alias": "Biaya"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "Name_1",
+      "isDescending": false
+    },
+    {
+      "name": "Batas Kota",
+      "id": "7461a1b8f9e64e949d2ca9db9c7a8b31",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/4",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "FID_Admini",
+            "alias": "FID_Admini",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "fid_batas_",
+            "alias": "fid_batas_",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "a1code",
+            "alias": "a1code",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "a2code",
+            "alias": "a2code",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "a2name",
+            "alias": "a2name",
+            "show": true
+          },
+          {
+            "name": "a1name",
+            "alias": "a1name",
+            "show": true
+          },
+          {
+            "name": "kode_bps",
+            "alias": "kode_bps",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "fid_dakkab",
+            "alias": "fid_dakkab",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "dak_kprov",
+            "alias": "dak_kprov",
+            "show": true
+          },
+          {
+            "name": "dak_nprov",
+            "alias": "dak_nprov",
+            "show": true
+          },
+          {
+            "name": "dak_kkab",
+            "alias": "dak_kkab",
+            "show": true
+          },
+          {
+            "name": "dak_nkab",
+            "alias": "dak_nkab",
+            "show": true
+          },
+          {
+            "name": "dakk",
+            "alias": "dakk",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "kode_dagri",
+            "alias": "kode_dagri",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "coba",
+            "alias": "coba",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "zona",
+            "alias": "zona",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Batas Kecamatan",
+      "id": "f5db866b757147ffbbb8e0ed50c1ffe9",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/5",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "FID_Kecama",
+            "alias": "FID_Kecama",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "provinsi",
+            "alias": "provinsi",
+            "show": true
+          },
+          {
+            "name": "kabupaten",
+            "alias": "kabupaten",
+            "show": true
+          },
+          {
+            "name": "kecamatan",
+            "alias": "kecamatan",
+            "show": true
+          },
+          {
+            "name": "kode_dagri",
+            "alias": "kode_dagri",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Batas Kelurahan",
+      "id": "d8e405de78fe48c7bb0e4e45338d0635",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/6",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "FID_Kelura",
+            "alias": "FID_Kelura",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "provinsi",
+            "alias": "provinsi",
+            "show": true
+          },
+          {
+            "name": "kabupaten",
+            "alias": "kabupaten",
+            "show": true
+          },
+          {
+            "name": "kecamatan",
+            "alias": "kecamatan",
+            "show": true
+          },
+          {
+            "name": "desa",
+            "alias": "desa",
+            "show": true
+          },
+          {
+            "name": "kode_dagri",
+            "alias": "kode_dagri",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "shape_leng",
+            "alias": "shape_leng",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Jaringan Jalan",
+      "id": "1c063fbffa5c4cefa8b20e329640954b",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/7",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "REMARK",
+            "alias": "REMARK",
+            "show": true
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "REMARK",
+      "isDescending": false
+    },
+    {
+      "name": "Kelurahan Surakarta",
+      "id": "a67f7cac504543d299e0cd0c04a6a9ad",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/8",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "provinsi",
+            "alias": "provinsi",
+            "show": true
+          },
+          {
+            "name": "kabupaten",
+            "alias": "kabupaten",
+            "show": true
+          },
+          {
+            "name": "kecamatan",
+            "alias": "kecamatan",
+            "show": true
+          },
+          {
+            "name": "desa",
+            "alias": "desa",
+            "show": true
+          },
+          {
+            "name": "kode_dagri",
+            "alias": "kode_dagri",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "shape_leng",
+            "alias": "shape_leng",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "desa",
+      "isDescending": false
+    },
+    {
+      "name": "Administrasi",
+      "id": "59350864c45f43199410c2c532861890",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Peta_Pariwisata_Surakarta_WFL1/FeatureServer/9",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "provinsi",
+            "alias": "provinsi",
+            "show": true
+          },
+          {
+            "name": "kabupaten",
+            "alias": "kabupaten",
+            "show": true
+          },
+          {
+            "name": "kecamatan",
+            "alias": "kecamatan",
+            "show": true
+          },
+          {
+            "name": "kode_dagri",
+            "alias": "kode_dagri",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "kecamatan",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}
